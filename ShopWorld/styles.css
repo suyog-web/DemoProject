@@ -1,0 +1,142 @@
+#registercenter{
+	margin-left: 363px;
+    margin-top: 85px;
+    background: whitesmoke;
+    width: 410px;
+    height: 525px;
+}
+#rform{
+    height: 501px;
+    padding-left: 48px	
+}
+#tform{
+	height: 390px;
+    width: 389px;
+}
+#signup{
+ 	padding: 13px;
+    color: maroon;
+    padding-left: 97px
+}
+#alogin{
+ 	text-decoration: none;
+    font-size: 21px;
+	font-style:italic;
+}
+input[type="submit" i] {
+font-size: 18px;
+    color: :white;
+    background: forestgreen;
+    color: white;
+}
+#oregistercenter{
+	margin-left: 363px;
+    margin-top: 54px;
+    background: whitesmoke;
+    width: 410px;
+    height: 590px;
+}
+#otform {
+    height: 420px;
+    width: 435px;
+}
+#orform{
+    padding-left: 42px	
+}
+.index{
+   border:2px solid black;
+   padding:12px;
+   border-radius:23px;
+	background: forestgreen;
+	color:white;
+	width:200px;
+	text-align:center;
+	font-size:24px;
+	margin-top:95px;
+	margin-left:390px;	
+}
+.index1{
+   border:2px solid black;
+   padding:12px;
+   border-radius:23px;
+	background: forestgreen;
+	color:white;
+	width:200px;
+	text-align:center;
+	font-size:24px;
+	margin-top:40px;
+	margin-left:390px;	
+}
+#index_a{
+	text-decoration:none;
+	color:white;
+}
+.top{
+	
+	height:200;
+	width:100%;
+	background:lavenderblush;
+
+}
+.top a i{
+
+	font-size:32;
+	color:green;
+	
+}
+.top table{
+	width:100%;
+	height:186px;
+}
+.top table td{
+  font-size:21px;
+}
+.top table td img{
+  padding:9px;
+}
+.top table td  button {
+	font-size:17px;
+	background:green;
+		
+}
+.top table td a{
+	text-decoration:none;
+	color:white;
+}
+#item_form{
+	margin-left:351;
+}
+#item_table{
+    height: 300px;
+    width: 547px;
+    margin-top: 19px;
+}
+
+@keyframes shopname {
+  0%   {color: red;}
+  25%  {color: #28B463;}
+  50%  {color: #00FF00;}
+  100% {color: #FFA500;}
+}
+.ownercolumnsouter{
+	height: 254px;
+    width: 193px;
+    float: left;
+    background: #fc6767;
+    color: white;
+    margin-left: 45px;
+	margin-top:10px;
+	margin-bottom:15px;
+	text-align: center;
+	font-size:17px;
+	box-sizing: border-box;
+}
+.ownercolumnsouter:hover{
+    box-shadow: 2px 2px 3px #black;
+    
+}
+.ownercolumnsinner{
+	height: 168px;
+    width: 100%;
+    padding: 10;
+}

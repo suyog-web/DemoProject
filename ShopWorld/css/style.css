@@ -1,0 +1,444 @@
+body {
+  font: sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*-------------------NavBar Start here---------------------------*/
+html {
+  font-size: 62.5%;
+}
+.navbar {
+  background-image: linear-gradient(to right, #f72585, #b5179e);
+  max-height: max-content;
+}
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar-brand .navbar-text{
+  font-size: 4rem;
+}
+.navbar-brand .navbar-text {
+  padding-left: 2rem;
+  color: azure;
+  text-shadow: .2rem .2rem .3rem black;
+}
+.nav-item h5 {
+  font-size: 2rem;
+  padding: 0rem 1rem;
+  color: cornsilk;
+  text-shadow: .1rem .1rem .2rem black;
+}
+.nav-item h5:hover {
+  font-size: 2rem;
+  padding: 0rem 1rem;
+  color: gold;
+  text-shadow: .1rem .1rem .2rem black;
+}
+.fa-bars {
+  color: honeydew;
+  font-size: 3rem;
+}
+
+/*-------------------Baner Start here---------------------------*/
+.h-baner {
+  
+  background-image: linear-gradient(to right, #f72585, #b5179e);
+  color: white;
+  width: 100%;
+  height:60rem;
+
+}
+.col-md-6 img {
+  position: relative;
+  width: 30rem;
+  padding: 0%;
+  margin: 0%;
+}
+.col-md-6 .b-title{
+  margin-top: 4rem;
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  text-shadow: .1rem .1rem .2rem black;
+  justify-content: space-around;
+}
+.col-md-6 p{
+  font-size: 1.5rem;
+  padding-top: 0rem;
+  text-align: justify;
+  justify-content: space-around;
+}
+svg {
+  display: absolute;
+  position:  relative;
+  width: 100%;
+  bottom: 18rem;
+  
+}
+.img-fluid{
+  padding: 0.5rem;
+}
+
+/*-------------------About content Start here---------------------------*/
+.c-content{
+  display: flex;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+.c-content .l-content{
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+}
+.c-content .r-content{
+  width: 50%;
+  padding: 1rem;
+  justify-content: center;
+  text-align: center;
+}
+.c-content .l-content img{
+  width: 85%;
+  padding-top: 5rem;
+}
+.c-head{
+  color:teal; 
+  font-family:'Segoe UI', Tahoma, Geneva,Verdana, sans-serif; 
+  text-shadow: 2px 2px 2px black;
+  font-size: 4rem;
+  padding: 0.4rem;
+  justify-content: center;
+}
+.c-content .r-content p{
+  font-size: 1.5rem;
+  text-align: justify;
+  padding: 2rem;
+  justify-content: space-around;
+}
+
+/*---------------------Our Client Section------------------------*/
+.o-client .container{
+  padding: 3rem;
+}
+.container hr{
+  background-color: rgb(59, 58, 58);
+  justify-content: center;
+}
+.client-head{
+  font-size: 4rem;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 1.5rem;
+  color:seagreen;
+  text-shadow: .2rem .2rem .2rem black;
+}
+.col-3 img{
+  width: 18rem;
+}
+.slide{
+  justify-content: center;
+  padding: 1rem;
+  height: 20rem;
+}
+.carousel-inner{
+  justify-content: center;
+  align-content: center;
+  padding: 2rem;
+  height: 25rem;
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+  color: black;
+  background-color: seagreen;
+
+}
+.carousel-control-prev, .carousel-control-next{
+margin-left: -10rem;
+margin-right: -10rem;
+justify-content: center;
+}
+
+
+/*-------------------Footer Start here---------------------------*/
+#h-footer{
+  display: flex;
+  float: left;
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(to right, #f72585, #b5179e);
+  
+}
+#h-footer .container{
+  margin: .2rem;
+  padding: 2rem;
+  
+}
+.f-content{
+  padding-right: 3rem;
+  padding-left: 1rem;
+  display: inline-block;
+  float: left;
+}
+.f-content h1{
+  padding: .2rem;
+  font-size: 3rem;
+  color:ghostwhite;
+  text-shadow: .1rem .1rem .2rem black;
+}
+.f-content p{
+  width: 32vw;
+  font-size: 1.3rem;
+  color:gainsboro;
+  text-align: justify;
+  justify-content: space-around;
+}
+.f-content h2{
+  padding: .2rem;
+  font-size: 2rem;
+  color:ghostwhite;
+}
+.f-content ul a{
+  text-decoration-style: none;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.6rem;
+  color: darkslategray;
+}
+.f-content ul a:hover{
+  color: rgb(169, 255, 255);
+}
+.f-content .f-icon a img{
+  width: 5rem;
+  padding: .5rem;
+}
+
+
+
+
+
+
+
+/*--------------Desktop Media Query--------------------*/
+/*---------------------------------  1400  ------------------------------------------*/
+@media (min-width: 1400px) {
+  /*---------------Baner--------------*/
+  .h-baner {
+    height: 50rem;
+ 
+  }
+  svg {
+   bottom: 22rem;
+  }
+}
+/*---------------------------------1200 & 1399 ------------------------------------------*/
+@media (min-width: 1200px) and (max-width:1399px) {
+  /*---------------Baner--------------*/
+  .h-baner {
+    height: 47.5rem;
+
+  }
+  svg {
+   bottom: 19rem;
+  }
+}
+/*---------------------------------1024 & 1199 ------------------------------------------*/
+@media (min-width: 1024px) and (max-width:1199px) {
+  /*---------------Baner--------------*/
+  .h-baner {
+    height: 44.5rem;
+
+  }
+  svg {
+    bottom: 17rem;
+  }
+}
+
+
+
+/*--------------Tablet & ipad--------------------*/
+/*---------------------------------942 & 1023------------------------------------------*/
+@media (min-width: 942px) and (max-width:1023px) {
+  /*---------------Baner--------------*/
+  .h-baner {
+    height: 42rem;
+  }
+  svg {
+   bottom: 16rem;
+  }
+}
+/*--------------------------------834 & 941-------------------------------------------*/
+@media (min-width: 834px) and (max-width:941px) {
+  /*---------------Baner--------------*/
+  .h-baner {
+    height: 43rem;
+  }
+  svg {
+   bottom: 13rem;
+  }
+}
+
+
+/*------------------Mobile--------------------*/
+/*---------------------------------768 & 833------------------------------------------*/
+@media (min-width: 768px) and (max-width: 833px) {
+  /*---------------Baner--------------*/
+  .h-baner {
+    height: 42rem;
+  }
+  svg {
+    bottom: 12rem;
+  }
+}
+
+
+/*----------------------------------- 767 ----------------------------------------*/
+@media (max-width: 767px) {
+  /*---------------Baner--------------*/
+  .h-baner {
+    height: 55rem;
+  }
+  svg {
+    bottom: 12rem;
+  }
+  /*---------------About--------------*/
+  .c-content{
+    display:flex;
+    flex-direction: column;
+    
+  }
+  .c-content .l-content{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    float: none;
+    order: 2;
+  }
+  
+  .c-content .r-content{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    float: none;
+    order: 1;
+    
+  }
+  .c-content .l-content img{
+    padding:0;
+  }
+  .c-head{
+    padding: 0.1rem;
+
+}
+
+}
+
+
+/*------------------------------------ 652 ---------------------------------------*/
+@media (max-width: 652px) {
+  #nav-bar {
+    position:static;
+  }
+  /*---------------Baner--------------*/
+  .h-baner {
+    height:min-content;
+  }
+  svg {
+    display: none;
+  }
+  .col-md-6 .b-title{
+    font-size: 3rem;
+    
+  }
+  .col-md-6 p{
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 0.2rem;
+    
+  }
+
+  .navbar-brand .navbar-text {
+    padding-left: 3rem;
+  }
+  .img-fluid{
+    margin: 2rem;
+  }
+  /*---------------About--------------*/
+  .c-content{
+    display:flex;
+    flex-direction: column;
+    
+  }
+  .c-content .l-content{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    float: none;
+    order: 2;
+  }
+  
+  .c-content .r-content{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    float: none;
+    order: 1;
+    
+  }
+  .c-content .l-content img{
+    padding:0;
+  }
+  .c-head{
+    padding: 0.1rem;
+
+}
+ /*---------------Our Partners--------------*/
+.col-3 img{
+  width: 10rem;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+  display: none;
+
+}
+.carousel-control-prev, .carousel-control-next{
+  display: none;
+  }
+  .carousel-inner{
+   padding: 0;
+   margin: 0;
+
+  }
+ /*---------------------Footer----------------------*/
+ .f-content{
+  display: block;
+  padding:1rem ;
+  padding-right: 2rem;
+  
+}
+.f-content h1{
+  padding: .2rem;
+  font-size: 3rem;
+  color:ghostwhite;
+  text-shadow: .1rem .1rem .2rem black;
+}
+.f-content p{
+  font-size: 1.3rem;
+  width: auto;
+}
+.f-content h2{
+  padding: .2rem;
+  font-size: 1.8rem;
+}
+.f-content ul a{
+  font-size: 1.5rem;
+  
+}
+.f-content .f-icon a img{
+  width: 4rem;
+  padding: .5rem;
+}
+}

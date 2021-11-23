@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: sans-serif;
+}
+.section {
+  width: 100%;
+  min-height: 100vh;
+  background-color: lavender;
+}
+.container {
+  padding-top: 50px;
+}
+.content-section {
+  float: left;
+  width: 55%;
+}
+.image-section {
+  float: right;
+  width: 45%;
+}
+.image-section img {
+  width: 100%;
+  height: 350px;
+  padding-left: 20px;
+  padding-top: 60px;
+}
+
+.content-section .title h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  color: tomato;
+}
+.content-section .content h3 {
+  margin-top: 20px;
+  color: #5d5d5d;
+  font-size: 28px;
+}
+.content-section .content p {
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 19px;
+  text-align: justify;
+  justify-content: space-around;
+  padding-right: 15px;
+}
+.content-section .social i {
+  color: tomato;
+  font-size: 40px;
+  padding: 20px 10px;
+}
+.content-section .social i:hover {
+  color: #a432eb;
+}
+
+/*---------------Our Team--------------------------*/
+.a-container {
+  text-transform: uppercase;
+  text-align: center;
+}
+.a-container h2 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+  color: darkorange;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.a-cards {
+  width: 90%;
+  display: inline-flex;
+  height: 40vh;
+  justify-content: center;
+  text-align: center;
+}
+.column {
+  width: 20%;
+  padding: 0 10px;
+}
+.card1 {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.466);
+  padding: 30px;
+  text-align: center;
+  border-radius: 1rem;
+}
+.card1:hover {
+  box-shadow: 1px 4px 8px rgba(248, 87, 87, 0.829);
+}
+.card1 img {
+  padding: 5px;
+}
+.card1 h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 5px;
+  text-align: center;
+}
+.card1 p {
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+  }
+  .content-section {
+    width: 60%;
+    display: flex;
+    margin: auto;
+  }
+  .image-section {
+    width: 40%;
+    padding-left: 20px;
+  }
+  .image-section img {
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin-left: 10px;
+    padding-left: 15px;
+  }
+  .content-section .title {
+    text-align: center;
+    font-size: 19px;
+  }
+  .content-section .social {
+    text-align: center;
+  }
+}
